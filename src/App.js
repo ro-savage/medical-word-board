@@ -10,7 +10,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      selectedWord: '',
+      selectedWord: ' ',
       wordList: defaultList,
       bodyPart: false,
     }
