@@ -1,0 +1,33 @@
+.wordButton {
+  cursor: pointer;
+  width: 27vw;
+  height: 20vh;
+  font-size: 4vw;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 1.5vh auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+.wordButton:active, .wordButton:focus {
+  background-color: black;
+  color: red;
+}
+
+.word {
+  background-color: black;
+  color: white;
+  font-size: 7vw;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.wordList {
+  display: flex;
+  flex-wrap: wrap;
+}
